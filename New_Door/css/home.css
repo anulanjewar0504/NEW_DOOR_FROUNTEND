@@ -1,0 +1,87 @@
+.content{
+    text-align: center;
+}
+.content h2{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 24px;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 20px;
+    box-shadow: 0 5px 11px 0 rgb(0, 0, 0), 0 4px 15px 0 rgb(0, 0, 0);
+}
+
+.city-heading {
+    text-align: center;
+  
+}
+
+.city-card-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.city-card {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    display:inline-block;
+    padding: 20px;
+}
+
+.city-card:focus,
+.city-card:hover {
+    box-shadow: 0 5px 11px 0 rgb(0, 0, 0),0 4px 15px 0 rgb(0, 0, 0);
+}
+
+.city-img {
+    height: 200px;
+    width: 200px;
+}
+.page-container {
+    max-width: 1500px;
+    padding: 100px 50px;
+    margin:auto;
+}
+.footer {
+    background-color: #333333;
+    font-size: 25px;
+}
+
+.footer-container {
+    padding: 50px;
+}
+
+.footer-cities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-city {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media(max-width:768px) {
+    .footer-city {
+        width: 100%;
+    }
+}
+
+.footer-city a {
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #a9a9a9;
+    text-align: center;
+    padding-top: 100px;
+}
